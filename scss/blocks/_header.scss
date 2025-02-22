@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding-top: 30px;
+    padding-bottom: 74px;
+
+    min-height: 840px;
+    background: linear-gradient(180deg, #242B3311.98%, rgba(45, 52, 60,0.38) 51.04%, #242B3392.19%), url(./../img/header/headr-bg.jpg);
+}
+
+.header_top_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_title {
+    position: relative;
+    font-size: 48px;
+    text-align: center;
+    font-family: $font-accent;
+    color: $accent;
+    font-weight: 700;
+} 
+
+.header_footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.text_right {
+    text-align: right;
+}
